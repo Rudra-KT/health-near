@@ -1,0 +1,52 @@
+.topbar{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.design{
+    background-color: rgba(13,110,253,0.5);
+    color: #ffffff;
+    /* backcolor: rgba(255, 255, 255, 0.5); */
+    border: 2;
+    border-radius: 5px;
+}
+.design:hover{
+    /* background-image: linear-gradient(135deg,black,grey);*/
+    transition: 1s;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0;
+}
+
+.nearby{
+    background-color: rgba(13,110,253,1);
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.nearby-head,.buttons{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.button-content{
+    background-color: #ffffff;
+}
+/* 
+.head{
+    align-items: center;
+
+} */
+
+review-body{
+    width: 80%;
+}
+user-review{
+    color: #92c800;
+}

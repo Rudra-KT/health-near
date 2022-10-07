@@ -1,48 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BOOTSTRAP-SCRIPTS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS-LINK -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- BOOTSTRAP-SCRIPTS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-  <!-- CSS-LINK -->
-  <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-  <section id="title">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
-        <a class="navbar-brand" href="">tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-            </li>
-          </ul>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary topbar">
+          <a class="navbar-brand" href="">Health.near</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="py-3" id="services">
+      <div class="container">
+        <h1 class="text-center text-dark" data-aos="fade-up">Features</h1>
+        <div class="row text-center gy-2 gx-3 py-2" data-aos="fade-up">
+          <div class="col-md">
+            <div class="card design">
+              <div class="card-body text-center design">
+                <div class="h1 mb-3">
+                  <i class="bi bi-tree design"></i>
+                </div>
+                <h3 class="class-title mb-3">Appointments</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore totam soluta, aut sequi eligendi illum esse consequatur
+                  non voluptas ducimus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card design">
+              <div class="card-body text-center design">
+                <div class="h1 mb-3 service_icon">
+                  <i class="bi bi-building"></i>
+                </div>
+                <h3 class="class-title mb-3">Nearby</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore totam soluta, aut sequi eligendi illum esse consequatur
+                  non voluptas ducimus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card design">
+              <div class="card-body text-center design">
+                <div class="h1 mb-3 service_icon">
+                  <i class="bi bi-house"></i>
+                </div>
+                <h3 class="class-title mb-3">Insurance</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore totam soluta, aut sequi eligendi illum esse consequatur
+                  non voluptas ducimus?
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </section>
 
-  </section>
-</body>
+    <!-- nearby -->
+    <section class="nearby">
+      <div class="nearby-head">
+        <h2 class="head">Nearby</h2>
+      </div>
+      <div class="buttons">
+        <button type="button" class="btn btn-outline-secondary button-content">Pharmacy</button>
+        <button type="button" class="btn btn-outline-secondary button-content">Hospital</button>
+      </div>
+    </section>
 
+    <section class="review">
+      <h2>Review</h2>
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="review-body">
+              <img src="11.jpg" alt="" class="rounded-circle mb-3"/>
+              <div class="user-review carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="review-body">
+              <img src="11w.jpg" alt="" class="rounded-circle mb-3"/>
+              <div class="user-review carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="review-body">
+              <img src="12.jpg" alt="" class="rounded-circle mb-3"/>
+              <div class="user-review carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
